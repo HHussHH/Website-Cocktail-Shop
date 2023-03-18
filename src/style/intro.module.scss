@@ -1,0 +1,47 @@
+.intro {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 80px;
+
+  color: #fff;
+  font-size: 128px;
+  font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Comfortaa";
+  width: max-content;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.links {
+  color: #fff;
+  margin-top: 400px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+
+  svg {
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+  svg:hover {
+    transform: rotateZ(360deg);
+    fill: rgb(88, 217, 161);
+  }
+  padding-bottom: 109px;
+}

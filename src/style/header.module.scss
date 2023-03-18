@@ -1,0 +1,46 @@
+.header {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.logo {
+  cursor: pointer;
+}
+.nav {
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  li {
+    display: flex;
+    margin-right: 100px;
+    &:last-child {
+      margin-right: 0;
+    }
+    cursor: pointer;
+    font-family: "Comfortaa";
+    font-size: 32px;
+    position: relative;
+    &::after {
+      position: absolute;
+      top: 100%;
+      content: "";
+      width: 0%;
+      background-color: #d5b660;
+      height: 2px;
+
+      transition: width 0.3s linear;
+    }
+
+    &:hover:after {
+      width: 100%;
+    }
+  }
+}
+
+.btn {
+  cursor: pointer;
+}
